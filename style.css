@@ -80,20 +80,24 @@ nav {
 } */
 
 #navbtn {
+    align-items: end;
+     /* border: 1px solid; */
+     
     width: Hug (92px)px;
     height: Hug (44px)px;
-    top: 13px;
-    left: 1048px;
+    top: 0px;
+    left: 0px;
     padding: var(--25) var(--5) var(--25) var(--5);
-    gap: var(--2);
     border-radius: var(--rounded-lg);
     border: 1px 0px 0px 0px;
     opacity: 0px;
-    gap: 10px;
+    gap: 20px;
+  
 
 }
 
 #navbtn>button:nth-child(1) {
+    
     height: 44px;
     width: 92px;
     /* background: rgba(255, 255, 255, 1); */
