@@ -283,7 +283,8 @@ nav {
     background: rgba(255, 255, 255, 0.01);
 
 }
-#banner2left>div>img{
+
+#banner2left>div>img {
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
@@ -304,5 +305,66 @@ nav {
     left: 264px;
     gap: 0px;
     opacity: 0px;
+
+}
+
+#banner3>#right>img {
+    border: 1px solid red;
+    width: 620px;
+    height: 411px;
+    position: absolute;
+    top: 1370px;
+    left: 720px;
+    gap: 0px;
+    border-radius: 0px 20px 0px 0px;
+    opacity: 0px;
+    bottom: 100px;
+
+}
+
+#banner3>#left {
+    border: 1px solid red;
+    position: absolute;
+    width: 620px;
+    height: 411px;
+    top: 1370px;
+    left: 100px;
+    gap: 0px;
+    border-radius: 20px 0px 0px 0px;
+    opacity: 0px;
+    background: rgba(119, 87, 244, 1);
+
+}
+
+#banner3>#left>h2 {
+    /* border: 1px solid red; */
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-family: open sans;
+  
+
+}
+
+#banner3>#left>p {
+    text-align: center;
+    position: absolute;
+    top: 110px;
+    left: 80px;
+    gap: 5px;
+    opacity: 0px;
+    font-size: x-large;
+    justify-content:space-evenly; 
+    font-family: inter;
+}
+
+#banner3>#left>button {
+    position: absolute;
+    top: 340px;
+    left: 160px;
+    border-radius: 8px;
+    opacity: 0px;
+    width: 100px;
+    height: 40px;
+    color: rgba(119, 87, 244, 1);
 
 }
