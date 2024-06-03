@@ -508,3 +508,12 @@ nav {
     border-radius: 8px;
 
 }
+#foot>img{
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 3690px;
+    /* right: 20px; */
+    left: 0px;
+    width: 1440px;
+    /* padding-left: 10px; */
+}
